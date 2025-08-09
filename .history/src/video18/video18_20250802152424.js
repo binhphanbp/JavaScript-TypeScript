@@ -1,0 +1,8 @@
+console.log('video 18');
+
+// number
+const myAge = 21;
+const myScore = 9.5;
+
+console.log(myAge);
+console.log(myScore);
