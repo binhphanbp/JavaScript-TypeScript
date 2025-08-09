@@ -1,4 +1,4 @@
-// * PRIMITIVE DATA TYPES * //
+// * PRIMITIVE DATA TYPES
 
 console.log('video 18');
 
