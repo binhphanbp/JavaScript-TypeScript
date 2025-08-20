@@ -8,6 +8,6 @@ const introduction = 'My name is ' + name + ' and I am ' + age + ' years old';
 console.log(introduction);
 
 // Template literals
-const intro = `My name is ${name} "test" 'abcd' and I am 
-    ${age} years old`;
+const intro = `My name is ${name} "test" 'abcd' and I am
+     ${age} years old`;
 console.log(intro);
