@@ -11,7 +11,7 @@ for (let i = 0; i < 10; i++) {
 // continue
 for (let i = 0; i < 10; i++) {
   if (i === 5) {
-    continue; // Bỏ qua vòng lặp hiện tại
+    continue;
   }
   console.log('i =', i);
 }
