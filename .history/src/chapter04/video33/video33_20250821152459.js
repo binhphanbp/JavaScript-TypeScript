@@ -8,7 +8,6 @@ const show = () => {
 show();
 console.log(globalVariable); // Truy cập được globalVariable
 
-// Function Scope
 const sayHi = () => {
   let name1 = 'Phan Đức Bình';
   console.log('Hi ' + name1); // Truy cập được name1
