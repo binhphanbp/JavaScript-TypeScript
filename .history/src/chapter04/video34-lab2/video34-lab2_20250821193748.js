@@ -17,14 +17,3 @@ const xepLoai = (diemTB) => {
 };
 
 console.log(xepLoai(tinhTrungBinh(8, 9, 10)));
-
-const diemToan = 9;
-const diemVan = 8;
-const diemAnh = 7;
-
-const myDiemTrungBinh = tinhTrungBinh(diemToan, diemVan, diemAnh);
-
-console.log(`
-Điểm trung bình: ${myDiemTrungBinh}
-Xếp loại: ${xepLoai(myDiemTrungBinh)}
-  `);

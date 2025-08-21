@@ -26,5 +26,5 @@ const myDiemTrungBinh = tinhTrungBinh(diemToan, diemVan, diemAnh);
 
 console.log(`
 Điểm trung bình: ${myDiemTrungBinh}
-Xếp loại: ${xepLoai(myDiemTrungBinh)}
+Xếp loại: ${xepLoai(tinhTrungBinh(diemToan, diemVan, diemAnh))}
   `);
