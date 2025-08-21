@@ -16,10 +16,8 @@ const sayHi = () => {
   if (true) {
     let x = 10;
     const y = 20;
-    console.log(x, y); // Truy cập được
+    console.log(x, y);
   }
-
-  console.log(x); // Error: Uncaught ReferenceError: x is not defined
 };
 sayHi();
 console.log(name1); // Error: Uncaught ReferenceError: name1 is not defined
