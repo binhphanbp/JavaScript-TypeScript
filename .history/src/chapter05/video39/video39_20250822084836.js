@@ -23,6 +23,4 @@ for (let i = 1; i <= myClass.length; i++) {
 console.log('===============================');
 // FOREACH
 // Cách 1: Function truyền thống
-myClass.forEach(function (value, index) {
-  console.log('value =', value, 'and index =', index);
-});
+myCl;
