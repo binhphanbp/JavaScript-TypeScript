@@ -20,6 +20,5 @@ console.log(lastElementDeleted); // "123"
 
 // shift
 const firstElementDeleted = names.shift(); // [ "Bình", "Kim Anh", "update name", "nam", "nữ", true ]
-console.log(firstElementDeleted); // null
 
 console.log('after', names);

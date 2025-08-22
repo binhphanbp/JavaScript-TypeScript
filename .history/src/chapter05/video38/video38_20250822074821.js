@@ -19,7 +19,6 @@ const lastElementDeleted = names.pop(); // [ null, "Bình", "Kim Anh", "update n
 console.log(lastElementDeleted); // "123"
 
 // shift
-const firstElementDeleted = names.shift(); // [ "Bình", "Kim Anh", "update name", "nam", "nữ", true ]
-console.log(firstElementDeleted); // null
+const firstElementDeleted = names.shift(); //
 
 console.log('after', names);
