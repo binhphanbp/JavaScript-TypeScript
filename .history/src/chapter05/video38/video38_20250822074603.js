@@ -16,7 +16,6 @@ names.unshift(null); // [ null, "Bình", "Kim Anh", "update name", "nam", "nữ"
 
 // pop: xoá phần tử ở cuối mảng và trả về giá trị đó
 const lastElementDeleted = names.pop(); // [ null, "Bình", "Kim Anh", "update name", "nam", "nữ", true ]
-console.log(lastElementDeleted); // "123"
 
 // shift
 console.log('after', names);

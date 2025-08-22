@@ -14,9 +14,8 @@ names.push(true, '123'); // [ "Bình", "Kim Anh", "update name", "nam", "nữ", 
 // unshift: thêm phần tử vào đầu mảng
 names.unshift(null); // [ null, "Bình", "Kim Anh", "update name", "nam", "nữ", true, "123" ]
 
-// pop: xoá phần tử ở cuối mảng và trả về giá trị đó
-const lastElementDeleted = names.pop(); // [ null, "Bình", "Kim Anh", "update name", "nam", "nữ", true ]
-console.log(lastElementDeleted); // "123"
+// pop
+const lastElementDeleted = names.pop();
 
 // shift
 console.log('after', names);
