@@ -8,8 +8,7 @@ names[2] = 'update name';
 console.log(names);
 
 console.log('before', names);
-// push: thêm vào cuối mảng
-names.push(true, '123'); // [ "Bình", "Kim Anh", "update name", "nam", "nữ", true, "123" ]
+// push
 
 // pop
 
