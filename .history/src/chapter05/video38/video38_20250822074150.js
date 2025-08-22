@@ -12,7 +12,6 @@ console.log('before', names);
 names.push(true, '123'); // [ "Bình", "Kim Anh", "update name", "nam", "nữ", true, "123" ]
 
 // unshift: thêm phần tử vào đầu mảng
-names.unshift(null); // [ null, "Bình", "Kim Anh", "update name", "nam", "nữ", true, "123" ]
 
 // pop
 
