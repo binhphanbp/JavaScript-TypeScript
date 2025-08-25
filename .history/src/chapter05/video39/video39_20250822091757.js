@@ -27,7 +27,6 @@ myClass.forEach(function (value, index) {
   console.log('value =', value, 'and index =', index);
 });
 
-console.log('===============================');
 // Cách 2: Arrow Function
 myClass.forEach((value, index) => {
   console.log('value =', value, 'and index =', index);
