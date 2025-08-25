@@ -1,7 +1,6 @@
 console.log('Video 40');
 
 //============== MAP() =============//
-// map() tạo ra array mới chứ không modify array gốc
 
 const scores = [10, 6, 8, 9, 5];
 
