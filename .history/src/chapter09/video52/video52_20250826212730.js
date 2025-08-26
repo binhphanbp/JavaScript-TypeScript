@@ -16,10 +16,4 @@ backMyBtnElement.addEventListener('click', () => {
 });
 
 // innerHTML
-const myBtnChangeHTML = document.getElementById('myBtnChangeHTML');
-const myHTMLElement = document.getElementById('myHTML');
-console.log(myBtnChangeHTML, myHTMLElement);
-
-myBtnChangeHTML.addEventListener('click', () => {
-  myHTMLElement.innerHTML = '<em style="color: red;">HTML changed</em>';
-});
+const myBtnCh
