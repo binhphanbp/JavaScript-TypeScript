@@ -44,7 +44,6 @@ newProduct = {
   price: 250,
   inStock: true,
 };
-products.push(newProduct);
 
 console.log(
   'Danh sách tất cả sản phẩm sau khi thay đổi giá sản phẩm thứ hai:',
