@@ -71,9 +71,5 @@ console.log('Danh sách giá sản phẩm:', productPrices);
 // 7. Dùng filter() để lấy các sản phẩm còn hàng (inStock = true).
 
 const inStockProducts = products.filter((item) => item.inStock);
-console.log(
-  'Danh sách các sản phẩm còn hàng (inStock = true):',
-  inStockProducts
-);
 
 // 8. Dùng for...in để duyệt qua các thuộc tính của sản phẩm đầu tiên.
