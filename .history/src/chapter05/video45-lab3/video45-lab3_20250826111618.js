@@ -32,7 +32,7 @@ console.log('Original:', products);
 
 // 1. In ra tên của sản phẩm đầu tiên
 const firstProduct = products[0];
-console.log('Tên của sản phẩm đầu tiên:', firstProduct.name);
+console.log('Tên của sản phẩm đầu tiên:', products[0].name);
 
 // 2. Thay đổi giá sản phẩm thứ hai thành 150 và in ra danh sách tất cả sản phẩm
 products[1].price = 150;
