@@ -61,7 +61,7 @@ console.log(
 
 // 5. Dùng forEach() để in ra tất cả tên sản phẩm.
 products.forEach((item, index) => {
-  console.log('Tên sản phẩm thứ', index + 1, 'là:', item.name);
+  console.log('Tên sản phẩm thứ', index + 1, 'là:', item);
 });
 
 // 6. Dùng map() để tạo mảng mới chỉ chứa giá sản phẩm.
