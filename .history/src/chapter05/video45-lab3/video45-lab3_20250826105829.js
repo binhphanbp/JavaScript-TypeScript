@@ -28,13 +28,17 @@ const products = [
   },
 ];
 
+const printAllProducts = (message, products) => {
+  console.log(message, products);
+};
+
 // 1. In ra tên của sản phẩm đầu tiên
 console.log('Tên của sản phẩm đầu tiên:', products[0].name);
 
 // 2. Thay đổi giá sản phẩm thứ hai thành 150 và in ra danh sách tất cả sản phẩm
 products[1].price = 150;
-console.log(
-  'Danh sách tất cả sản phẩm sau khi thay đổi giá sản phẩm thứ hai:',
+printAllProducts(
+  'Danh sách tất cả sản phẩm sau khi thay đổi giá sản phẩm thứ hai: ',
   products
 );
 
@@ -46,18 +50,15 @@ newProduct = {
 };
 products.push(newProduct);
 
-console.log(
-  'Danh sách tất cả sản phẩm sau khi thêm sản phẩm mới vào cuối mảng:',
+printAllProducts(
+  'Danh sách tất cả sản phẩm sau khi thêm sản phẩm mới: ',
   products
 );
 
 // 4. Xoá sản phẩm cuối cùng ra khỏi danh sách và in ra danh sách tất cả sản phẩm
 products.pop();
 
-console.log(
-  'Danh sách tất cả sản phẩm sau khi xoá sản phẩm cuối cùng:',
-  products
-);
+printAllProducts('Danh sách tất cả sản phẩm sau khi xoá sản phẩm cuối cùng: ');
 
 // 5. Dùng forEach() để in ra tất cả tên sản phẩm.
 

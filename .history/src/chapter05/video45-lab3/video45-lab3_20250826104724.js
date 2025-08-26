@@ -47,7 +47,7 @@ newProduct = {
 products.push(newProduct);
 
 console.log(
-  'Danh sách tất cả sản phẩm sau khi thêm sản phẩm mới vào cuối mảng:',
+  'Danh sách tất cả sản phẩm sau khi thay đổi giá sản phẩm thứ hai:',
   products
 );
 
@@ -55,7 +55,7 @@ console.log(
 products.pop();
 
 console.log(
-  'Danh sách tất cả sản phẩm sau khi xoá sản phẩm cuối cùng:',
+  'Danh sách tất cả sản phẩm sau khi thay đổi giá sản phẩm thứ hai:',
   products
 );
 
