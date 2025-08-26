@@ -50,3 +50,6 @@ for (let value of languages) {
 for (let value of Object.values(person)) {
   console.log(value);
 }
+for (let value of Object.entries(person)) {
+  console.log(value);
+}

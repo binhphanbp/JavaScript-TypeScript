@@ -47,6 +47,9 @@ for (let value of languages) {
 
 // Nâng cao
 // for...of với OBJECT
-for (let value of Object.values(person)) {
+for (let value of Object.entries(person)) {
+  console.log(value);
+}
+for (let value of Object.entries(person)) {
   console.log(value);
 }
