@@ -39,6 +39,11 @@ for (let key in person) {
 
 //============== FOR OF ==============//
 // Duyệt qua giá trị
+// for...of với OBJECT
+for (let value of Object.entries(person)) {
+  console.log(value);
+}
+
 // for...of với ARRAY
 const languages = ['JavaScript', 'PHP', 'Ruby', 'Python'];
 for (let value of languages) {

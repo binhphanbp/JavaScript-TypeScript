@@ -38,8 +38,6 @@ for (let key in person) {
 }
 
 //============== FOR OF ==============//
-// Duyệt qua giá trị
-// for...of với ARRAY
 const languages = ['JavaScript', 'PHP', 'Ruby', 'Python'];
 for (let value of languages) {
   console.log(value);

@@ -44,3 +44,12 @@ const languages = ['JavaScript', 'PHP', 'Ruby', 'Python'];
 for (let value of languages) {
   console.log(value);
 }
+
+// Nâng cao
+// for...of với OBJECT
+for (let value of Object.entries(person)) {
+  console.log(value);
+}
+for (let value of Object.entries(person)) {
+  console.log(value);
+}
