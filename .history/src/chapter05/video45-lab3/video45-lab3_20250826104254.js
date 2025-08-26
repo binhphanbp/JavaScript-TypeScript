@@ -8,7 +8,7 @@ const products = [
   },
   {
     name: 'Pants',
-    price: 180,
+    price: 150,
     inStock: true,
   },
   {

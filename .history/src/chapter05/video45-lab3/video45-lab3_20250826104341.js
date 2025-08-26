@@ -32,6 +32,11 @@ const products = [
 console.log('Tên của sản phẩm đầu tiên:', products[0].name);
 
 // 2. Thay đổi giá sản phẩm thứ hai thành 150 và in ra danh sách tất cả sản phẩm
+products[1].price = 150;
+console.log(
+  'Danh sách tất cả sản phẩm sau khi thay đổi giá sản phẩm thứ hai:',
+  products
+);
 
 // 3. Thêm một sản phẩm mới vào cuối mảng và in ra danh sách tất cả sản phẩm
 
