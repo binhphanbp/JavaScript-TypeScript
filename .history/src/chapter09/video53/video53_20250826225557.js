@@ -17,5 +17,4 @@ myBtnChangeBackElement.addEventListener('click', () => {
   myTextElement.style.backgroundColor = 'unset';
 
   //  remove class (classList)
-  myTextElement.classList.remove('text-style', 'binhphan');
 });

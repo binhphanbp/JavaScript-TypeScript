@@ -9,7 +9,7 @@ myBtnChangeColorElement.addEventListener('click', () => {
   myTextElement.style.color = 'white';
   myTextElement.style.backgroundColor = 'blue';
 
-  // add class (classList)
+  // classList (add class)
   myTextElement.classList.add('text-style', 'binhphan');
 });
 myBtnChangeBackElement.addEventListener('click', () => {
@@ -17,5 +17,4 @@ myBtnChangeBackElement.addEventListener('click', () => {
   myTextElement.style.backgroundColor = 'unset';
 
   //  remove class (classList)
-  myTextElement.classList.remove('text-style', 'binhphan');
 });

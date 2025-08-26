@@ -8,14 +8,8 @@ const myTextElement = document.getElementById('myText');
 myBtnChangeColorElement.addEventListener('click', () => {
   myTextElement.style.color = 'white';
   myTextElement.style.backgroundColor = 'blue';
-
-  // add class (classList)
-  myTextElement.classList.add('text-style', 'binhphan');
 });
 myBtnChangeBackElement.addEventListener('click', () => {
   myTextElement.style.color = 'black';
   myTextElement.style.backgroundColor = 'unset';
-
-  //  remove class (classList)
-  myTextElement.classList.remove('text-style', 'binhphan');
 });
