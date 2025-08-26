@@ -65,7 +65,7 @@ products.forEach((item, index) => {
 });
 
 // 6. Dùng map() để tạo mảng mới chỉ chứa giá sản phẩm.
-const productPrices = products.map((item) => item.price);
+const productPrices = products.map((item) => item);
 console.log('Danh sách giá sản phẩm:', productPrices);
 
 // 7. Dùng filter() để lấy các sản phẩm còn hàng (inStock = true).
