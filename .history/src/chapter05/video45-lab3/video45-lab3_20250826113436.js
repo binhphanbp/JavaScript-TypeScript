@@ -79,5 +79,5 @@ console.log(
 
 // 8. Dùng for...in để duyệt qua các thuộc tính của sản phẩm đầu tiên.
 for (let key in firstProduct) {
-  console.log(key, '|', firstProduct[key]);
+  console.log('key =', key);
 }

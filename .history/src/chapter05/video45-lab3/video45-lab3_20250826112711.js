@@ -28,14 +28,16 @@ const products = [
   },
 ];
 
+console.log('Original:', products);
+
 // 1. In ra tên của sản phẩm đầu tiên
 const firstProduct = products[0];
-console.log('1. Sản phẩm đầu tiên có tên:', firstProduct.name);
+console.log('Sản phẩm đầu tiên có tên:', firstProduct.name);
 
 // 2. Thay đổi giá sản phẩm thứ hai thành 150 và in ra danh sách tất cả sản phẩm
 products[1].price = 150;
 console.log(
-  '2. Danh sách tất cả sản phẩm sau khi thay đổi giá sản phẩm thứ hai:',
+  'Danh sách tất cả sản phẩm sau khi thay đổi giá sản phẩm thứ hai:',
   products
 );
 
@@ -78,6 +80,6 @@ console.log(
 );
 
 // 8. Dùng for...in để duyệt qua các thuộc tính của sản phẩm đầu tiên.
-for (let key in firstProduct) {
-  console.log(key, '|', firstProduct[key]);
+for (let key in products[0]) {
+  console.log('key =', key);
 }

@@ -28,6 +28,8 @@ const products = [
   },
 ];
 
+console.log('Original:', products);
+
 // 1. In ra tên của sản phẩm đầu tiên
 const firstProduct = products[0];
 console.log('1. Sản phẩm đầu tiên có tên:', firstProduct.name);
@@ -78,6 +80,6 @@ console.log(
 );
 
 // 8. Dùng for...in để duyệt qua các thuộc tính của sản phẩm đầu tiên.
-for (let key in firstProduct) {
-  console.log(key, '|', firstProduct[key]);
+for (let key in products[0]) {
+  console.log('key =', key);
 }
