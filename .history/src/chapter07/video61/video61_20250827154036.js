@@ -1,0 +1,6 @@
+console.log('Video 61');
+
+// Synchronous
+console.log('1');
+console.log('2');
+console.log('3');
