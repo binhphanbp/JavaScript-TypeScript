@@ -20,12 +20,12 @@ greeting('bianbp', hi);
 // Vì để linh hoạt, dễ dàng tái sử dụng khi có nhiều hàm khác nhau (tránh hard-code)
 
 // Ví dụ về callback hell (Nên tránh)
-loginUser('hoidanit', function (user) {
-  getUserProfile(user.id, function (profile) {
-    getUserSettings(profile.id, function (settings) {
-      updateUI(settings, function () {
-        console.log('Hoàn thành');
-      });
-    });
-  });
+I loginUser("hoidanit", function (user) {
+getUserProfile(user.id, function (profile) {
+getUserSettings(profile.id, function (settings) {
+updateUl(settings, function () {
+console.log("Hoàn thành!");
+});
+}):
+});
 });

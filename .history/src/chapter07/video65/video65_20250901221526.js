@@ -24,7 +24,7 @@ loginUser('hoidanit', function (user) {
   getUserProfile(user.id, function (profile) {
     getUserSettings(profile.id, function (settings) {
       updateUI(settings, function () {
-        console.log('Hoàn thành');
+        console.log('Hoàn tính!');
       });
     });
   });
