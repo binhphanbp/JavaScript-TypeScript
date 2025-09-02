@@ -10,8 +10,8 @@ fetch('http://localhost:8000/users')
 // async - await
 const fetchUser = async () => {
   const response = await fetch('http://localhost:8000/users');
-  const data = await response.json();
-  console.log('fetch with async-await:', data);
+  const data = response.json();
+  console.log(data);
 };
 
 fetchUser();

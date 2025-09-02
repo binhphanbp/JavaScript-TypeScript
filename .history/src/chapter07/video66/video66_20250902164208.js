@@ -8,10 +8,9 @@ fetch('http://localhost:8000/users')
   .then((data) => console.log('fetch with promise:', data));
 
 // async - await
-const fetchUser = async () => {
-  const response = await fetch('http://localhost:8000/users');
-  const data = await response.json();
-  console.log('fetch with async-await:', data);
+const fetchUser = () => {
+  const response = fetch('http://localhost:8000/users');
+  const data = response.json();
 };
 
 fetchUser();
