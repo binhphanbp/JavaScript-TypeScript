@@ -6,17 +6,13 @@ const fetchUsers = async () => {
   const response = await fetch('http://localhost:8000/users');
   const data = await response.json(); // JavaScript Object contain the user data
 
-  console.log('User Data:', data);
+  data.forEach((user) => console.log(user));
+  const row = tbody.insertRow();
+  const cell1 = row.insertCell(0);
+  const cell2 = row.insertCell(1);
+  cell1.innerHTML = user.id;
+  cell2.innerHTML = user.name;
 
-  // Insert Data to Table
-  for (let i = 0; i < data.length; i++) {
-    tbody.innerHTML += `
-    <tr>
-      <td>${data[i].id}</td>
-      <td>${data[i].name}</td>
-      <td>${data[i].email}</td>
-    </tr>
-    `;
-  }
+  console.log('User Data (JavaScript Object)', users);
 };
 fetchUsers();
