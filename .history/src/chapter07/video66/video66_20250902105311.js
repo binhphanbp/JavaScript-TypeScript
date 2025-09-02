@@ -4,5 +4,5 @@ console.log('Video 66');
 
 // Cách dùng Promise
 fetch('http://localhost:8000/users')
-  .then((response) => response.json())
-  .then((data) => console.log('fetch with promise:', data));
+  .then((response) => response)
+  .then((data) => console.log('fetch with promist:'data));

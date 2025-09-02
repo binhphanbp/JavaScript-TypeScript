@@ -1,0 +1,5 @@
+console.log('Video 66');
+
+//================== ASYNC - AWAIT ==================//
+const temp = fetch('http://localhost:8000/users');
+console.log(temp);
