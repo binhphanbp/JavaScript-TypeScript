@@ -24,11 +24,11 @@ const fetchUsers = async () => {
   if (data && data.length) {
     data.forEach((user) => {
       tbody.innerHTML += `
-        <tr>
-          <td>${user.id}</td>
-          <td>${user.name}</td>
-          <td>${user.email}</td>
-        </tr>
+    <tr>
+      <td>${user.id}</td>
+      <td>${user.name}</td>
+      <td>${user.email}</td>
+    </tr>
     `;
     });
   }

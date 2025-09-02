@@ -21,14 +21,14 @@ const fetchUsers = async () => {
   // }
 
   // Cách 2
-  if (data && data.length) {
+  if (data && data.length > 6) {
     data.forEach((user) => {
       tbody.innerHTML += `
-        <tr>
-          <td>${user.id}</td>
-          <td>${user.name}</td>
-          <td>${user.email}</td>
-        </tr>
+    <tr>
+      <td>${user.id}</td>
+      <td>${user.name}</td>
+      <td>${user.email}</td>
+    </tr>
     `;
     });
   }
